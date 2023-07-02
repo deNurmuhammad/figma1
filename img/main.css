@@ -1,0 +1,484 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+
+.container__title {
+    padding: 9px 0px;
+    max-width: 100%;
+    background: #454F5B;
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container__title h3 {
+    color: #fff;
+}
+
+.container__title span {
+    margin-left: 197px;
+}
+
+.container__title span a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* container header style  */
+.container.container__header {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-left: 101px;
+}
+
+.item {
+    margin-right: 32px;
+}
+
+.item a {
+    color: #000;
+    font-size: 20px;
+}
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMe span {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contactMe span img {
+    margin-right: 8px;
+}
+
+.contactMe img+img {
+    margin-left: 30px;
+}
+
+/* hero section style */
+.container__hero {
+    max-width: 100%;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.02);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 160px 0px;
+}
+
+.container__hero img {
+    margin-right: 140px;
+}
+
+.hero__about {
+    width: 604px;
+}
+
+.hero__about h1 {
+    color: rgba(22, 28, 36, 1);
+    font-size: 44px;
+}
+
+.hero__about p {
+    width: 287px;
+    margin-top: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(69, 79, 91, 1);
+}
+
+.price {
+    margin-top: 32px;
+}
+
+.price p {
+    line-height: 0px;
+}
+
+.price button {
+    width: 220px;
+    height: 50px;
+    background: #4295E4;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.sum {
+    color: rgba(22, 28, 36, 1);
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.sum span {
+    text-decoration: line-through;
+    margin-left: 12px;
+    color: rgba(164, 164, 164, 1);
+}
+
+.number {
+    width: 1500px;
+    height: 160px;
+    background: aqua;
+    margin-left: -100px;
+}
+
+main .container {
+    background: #f2f8ff;
+}
+
+main .container p {
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.img img {
+    margin-top: 300px;
+}
+
+.hero .frame {
+    margin-left: 100px;
+    margin-top: 900px;
+}
+
+.goldenSilver {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.alt {
+    margin-left: 210px;
+}
+
+.gold {
+    display: flex;
+    margin-top: 50px;
+    gap: 150px;
+}
+
+.alt {
+    color: #454F5B;
+    border-left: 1px solid #C4CDD5;
+    border-right: 1px solid #C4CDD5;
+}
+
+.new1 {
+    color: #454F5B;
+    margin-left: -130px;
+    border-left: 1px solid #C4CDD5;
+    border-right: 1px solid #C4CDD5;
+}
+
+.new2 {
+    border-left: 1px solid #C4CDD5;
+    border-right: 1px solid #C4CDD5;
+    color: #454F5B;
+    margin-left: -130px;
+}
+
+.lock h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.site img {
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+.site h2 {
+    margin-left: -20px;
+    color: #161C24;
+    margin-top: -150px;
+}
+
+.site button {
+    margin-left: -20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #454F5B;
+    background: #fff;
+    color: #161C24;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.site h1:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.site h2:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.door h2 {
+    margin-top: 70px;
+    margin-left: 920px;
+}
+
+.шкафчиков img {
+    margin-top: -420px;
+    margin-left: 550px;
+}
+
+.шкафчиков h2 {
+    margin-left: 600px;
+    color: #161C24;
+    margin-top: -150px;
+}
+
+.шкафчиков button {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #454F5B;
+    background: #fff;
+    color: #161C24;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.шкафчиков button:hover {
+    background: #4295E4;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+
+}
+
+.шкафчиков h2:hover {
+    color: #4295E4;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.dlya img {
+    margin-top: 80px;
+    margin-left: -80px;
+}
+
+.dlya h2 {
+    margin-left: -30px;
+    color: #161C24;
+    margin-top: -160px;
+}
+
+.dlya button {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #454F5B;
+    background: #fff;
+    color: #161C24;
+    font-size: 20px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.dlya button:hover {
+    background: #4295E4;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+
+}
+
+.dlya h2:hover {
+    color: #4295E4;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.pereyt img {
+    margin-top: -400px;
+    margin-left: 550px;
+}
+
+.pereyt h2 {
+    margin-left: 600px;
+    color: #161C24;
+    margin-top: -160px;
+}
+
+.sum button:hover {
+    cursor: pointer;
+}
+
+.contactMe img:hover {
+    cursor: pointer;
+}
+
+.pereyt button {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #454F5B;
+    background: #fff;
+    color: #161C24;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+main .container:hover {
+    background: #4295E4;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.pereyt button:hover {
+    background: #4295E4;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+
+}
+
+footer .container h1:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+footer .container p:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.pereyt h2:hover {
+    color: #4295E4;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.doma .vse {
+    width: 220px;
+    height: 50px;
+    background: #4295E4;
+    border: none;
+    margin-left: 410px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.vse:hover {
+    color: #fff;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.sum button:hover {
+    color: #fff;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.item a {
+    color: #161C24;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.hero__about p:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item a:hover {
+    border-bottom: 2px solid red;
+    color: thistle;
+}
+
+.phone h1:hover {
+    color: #4295E4;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.phone h1 {
+    font-size: 20px;
+}
+
+.hero__about h1:hover {
+    color: #4295E4;
+    transition: 0.5s;
+}
+
+.phone img:hover {
+    cursor: pointer;
+}
+
+.nash h1 {
+    margin-left: -75px;
+    color: #161C24;
+    font-size: 44px;
+    font-family: SF Pro Text;
+    margin-top: 100px;
+}
+
+.src {
+    margin-top: -41px;
+    margin-left: 1030px;
+}
+
+.nash h1:hover {
+    color: red;
+    transition: 0.5s;
+    opacity: 0.5;
+}
